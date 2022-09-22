@@ -2,7 +2,7 @@
 
 def add(a, b):
     """ my addition function
-    args:
+    Args:
         a: first integer
         b: secon integer
     Returns:
