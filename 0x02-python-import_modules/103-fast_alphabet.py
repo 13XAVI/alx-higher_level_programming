@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-import sys.string
+from system import string
 print(string.ascii_uppercase)
