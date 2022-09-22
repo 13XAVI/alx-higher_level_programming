@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def add(a,b):
+def add(a, b):
     """ my addition function
     args:
         a: first integer
@@ -8,4 +8,4 @@ def add(a,b):
     Returns:
         The return value. a+b
     """
-    return(a+b)
+    return (a + b)
