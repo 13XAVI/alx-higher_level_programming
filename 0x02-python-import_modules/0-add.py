@@ -2,6 +2,5 @@
 from add_0 import*
 a = 1
 b = 2
-result = add(a,b)
-print("1+2 =",result)
+print('{} + {} ='.format(1,2) ,add(a, b))
 print(end="\n")
