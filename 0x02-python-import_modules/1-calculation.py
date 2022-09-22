@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     """print sum,multiply,difference,divide"""
-from calculator_1 import add, substract, divide, multiply
+from calculator_1 import add, substract, multiply, divide
 a = 10
 b = 5
 
