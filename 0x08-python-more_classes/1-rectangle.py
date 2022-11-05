@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""Class Rectangle that define rectangle by width and height."""
+"""Class Rectangle that define a rectangle by width and height."""
 
 class Rectangle:
     """Rectangle"""
@@ -18,11 +18,11 @@ class Rectangle:
         return self.__width 
     @width.setter
     def width(self, value):
-    if not isinstance (value, int):
+        if not isinstance (value, int):
         raise TypeError("width must be an integer")
-    elif value < 0:
+        elif value < 0:
         raise ValueError("width must be  >= 0")
-    self.__width = value
+        self.__width = value
     @property
     def height(self):
         """The getters and setters for height"""
