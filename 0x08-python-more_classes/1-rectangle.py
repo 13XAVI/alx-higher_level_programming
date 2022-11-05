@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 """Class Rectangle that define rectangle by width and height."""
 
@@ -27,4 +27,3 @@ class Rectangle:
             raise TypeError except ("Height must be an integer")
         elif(value < 0):
             raise ValueError except("Height must be  >= 0")
-
